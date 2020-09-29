@@ -1,4 +1,131 @@
-[{"name":"refGene","type":"geneannotation","label":"refGene","options":{"label":"refGene"},"url":"","metadata":{"Track type":"geneannotation"},"isSelected":false,"fileObj":"","files":[],"tracks":[],"isText":false,"textConfig":{},"apiConfig":{},"genome":"hg38"},{"name":"RepeatMasker","type":"repeatmasker","label":"RepeatMasker","options":{"label":"RepeatMasker"},"url":"https://vizhub.wustl.edu/public/hg38/rmsk16.bb","metadata":{"Track type":"repeatmasker"},"isSelected":false,"fileObj":"","files":[],"tracks":[],"isText":false,"textConfig":{},"apiConfig":{}},{"name":"Ruler","type":"ruler","label":"Ruler","options":{"label":"Ruler"},"url":"","metadata":{"Track type":"ruler"},"isSelected":false,"fileObj":"","files":[],"tracks":[],"isText":false,"textConfig":{},"apiConfig":{}},{"name":"shRNA knockdown followed by RNA-seq on MATR3-human in HepG2","type":"bigwig","label":"shRNA knockdown followed by RNA-seq on MATR3-human in HepG2","options":{"color":"#28719b","height":20,"label":"shRNA knockdown followed by RNA-seq on MATR3-human in HepG2"},"url":"https://epgg-test.wustl.edu/d/hg19/encodeprj-hg19/ENCFF002YQO.bigWig","metadata":{"Sample":["Adult Cells/Tissues","Liver","HepG2"],"Assay":["Expression","RNA-Seq"],"Institution":["ENCODE"],"Track type":"bigwig"},"isSelected":false,"fileObj":"","files":[],"tracks":[],"isText":false,"textConfig":{},"apiConfig":{},"datahub":"ENCODE signal of unique reads"},{"name":"RNA-seq of hair follicle dermal papilla cell","type":"bigwig","label":"RNA-seq of hair follicle dermal papilla cell","options":{"color":"#28719b","height":20,"label":"RNA-seq of hair follicle dermal papilla cell"},"url":"https://epgg-test.wustl.edu/d/hg19/encodeprj-hg19/ENCFF003RYB.bigWig","metadata":{"Sample":["Adult Cells/Tissues","Stromal-Connective","HFDPC"],"Assay":["Expression","RNA-Seq"],"Institution":["ENCODE"],"Track type":"bigwig"},"isSelected":false,"fileObj":"","files":[],"tracks":[],"isText":false,"textConfig":{},"apiConfig":{},"datahub":"ENCODE signal of unique reads"},{
+[
+{
+"name": "refGene",
+"type": "geneannotation",
+"label": "refGene",
+"options": {
+"label": "refGene"
+},
+"url": "",
+"metadata": {
+"Track type": "geneannotation"
+},
+"isSelected": false,
+"fileObj": "",
+"files": [],
+"tracks": [],
+"isText": false,
+"textConfig": {},
+"apiConfig": {},
+"genome": "hg38"
+},
+{
+"name": "RepeatMasker",
+"type": "repeatmasker",
+"label": "RepeatMasker",
+"options": {
+"label": "RepeatMasker"
+},
+"url": "https://vizhub.wustl.edu/public/hg38/rmsk16.bb",
+"metadata": {
+"Track type": "repeatmasker"
+},
+"isSelected": false,
+"fileObj": "",
+"files": [],
+"tracks": [],
+"isText": false,
+"textConfig": {},
+"apiConfig": {}
+},
+{
+"name": "Ruler",
+"type": "ruler",
+"label": "Ruler",
+"options": {
+"label": "Ruler"
+},
+"url": "",
+"metadata": {
+"Track type": "ruler"
+},
+"isSelected": false,
+"fileObj": "",
+"files": [],
+"tracks": [],
+"isText": false,
+"textConfig": {},
+"apiConfig": {}
+},
+{
+"name": "shRNA knockdown followed by RNA-seq on MATR3-human in HepG2",
+"type": "bigwig",
+"label": "shRNA knockdown followed by RNA-seq on MATR3-human in HepG2",
+"options": {
+"color": "#28719b",
+"height": 20,
+"label": "shRNA knockdown followed by RNA-seq on MATR3-human in HepG2"
+},
+"url": "https://epgg-test.wustl.edu/d/hg19/encodeprj-hg19/ENCFF002YQO.bigWig",
+"metadata": {
+"Sample": [
+"Adult Cells/Tissues",
+"Liver",
+"HepG2"
+],
+"Assay": [
+"Expression",
+"RNA-Seq"
+],
+"Institution": [
+"ENCODE"
+],
+"Track type": "bigwig"
+},
+"isSelected": false,
+"fileObj": "",
+"files": [],
+"tracks": [],
+"isText": false,
+"textConfig": {},
+"apiConfig": {},
+"datahub": "ENCODE signal of unique reads"
+},
+{
+"name": "RNA-seq of hair follicle dermal papilla cell",
+"type": "bigwig",
+"label": "RNA-seq of hair follicle dermal papilla cell",
+"options": {
+"color": "#28719b",
+"height": 20,
+"label": "RNA-seq of hair follicle dermal papilla cell"
+},
+"url": "https://epgg-test.wustl.edu/d/hg19/encodeprj-hg19/ENCFF003RYB.bigWig",
+"metadata": {
+"Sample": [
+"Adult Cells/Tissues",
+"Stromal-Connective",
+"HFDPC"
+],
+"Assay": [
+"Expression",
+"RNA-Seq"
+],
+"Institution": [
+"ENCODE"
+],
+"Track type": "bigwig"
+},
+"isSelected": false,
+"fileObj": "",
+"files": [],
+"tracks": [],
+"isText": false,
+"textConfig": {},
+"apiConfig": {},
+"datahub": "ENCODE signal of unique reads"
+},
+{
 "name": "IMR-90 in situ Hi-C",
 "type": "hic",
 "label": "IMR-90 in situ Hi-C",
@@ -50,4 +177,40 @@
 ],
 "Lab": "ENCODE Processing Pipeline",
 "Track type": "bigwig"
-},{"name":"U2OS (Tier 2) 2-stage Repli-seq","type":"bigwig","label":"U2OS (Tier 2) 2-stage Repli-seq","options":{"label":"U2OS (Tier 2) 2-stage Repli-seq"},"url":"https://data.4dnucleome.org/files-processed/4DNFIHZLUMUG/@@download/4DNFIHZLUMUG.bw","metadata":{"Sample":["immortalized cell line","U2OS (Tier 2)"],"Assay":["2-stage Repli-seq","Fraction: early fraction of 2 fractions"],"Lab":"David Gilbert, FSU","Track type":"bigwig"},"isSelected":false,"fileObj":"","files":[],"tracks":[],"isText":false,"textConfig":{},"apiConfig":{},"datahub":"4DN HiC datasets"},{"name":"K562 (Tier 2) 2-stage Repli-seq","type":"bigwig","label":"K562 (Tier 2) 2-stage Repli-seq","options":{"label":"K562 (Tier 2) 2-stage Repli-seq"},"url":"https://data.4dnucleome.org/files-processed/4DNFI5TMO13R/@@download/4DNFI5TMO13R.bw","metadata":{"Sample":["immortalized cell line","K562 (Tier 2)"],"Assay":["2-stage Repli-seq","Fraction: late fraction of 2 fractions"],"Lab":"David Gilbert, FSU","Track type":"bigwig"},"isSelected":false,"fileObj":"","files":[],"tracks":[],"isText":false,"textConfig":{},"apiConfig":{},"datahub":"4DN HiC datasets"}]
+},
+"isSelected": false,
+"fileObj": "",
+"files": [],
+"tracks": [],
+"datahub": "Custom hub"
+},
+{
+"name": "K562 (Tier 2) 2-stage Repli-seq",
+"type": "bigwig",
+"label": "K562 (Tier 2) 2-stage Repli-seq",
+"options": {
+"label": "K562 (Tier 2) 2-stage Repli-seq"
+},
+"url": "https://data.4dnucleome.org/files-processed/4DNFI5TMO13R/@@download/4DNFI5TMO13R.bw",
+"metadata": {
+"Sample": [
+"immortalized cell line",
+"K562 (Tier 2)"
+],
+"Assay": [
+"2-stage Repli-seq",
+"Fraction: late fraction of 2 fractions"
+],
+"Lab": "David Gilbert, FSU",
+"Track type": "bigwig"
+},
+"isSelected": false,
+"fileObj": "",
+"files": [],
+"tracks": [],
+"isText": false,
+"textConfig": {},
+"apiConfig": {},
+"datahub": "4DN HiC datasets"
+}
+]
