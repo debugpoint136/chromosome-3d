@@ -1,0 +1,187 @@
+[
+{
+"name": "refGene",
+"type": "geneannotation",
+"label": "refGene",
+"options": {
+"label": "refGene"
+},
+"url": "",
+"metadata": {
+"Track type": "geneannotation"
+},
+"isSelected": false,
+"fileObj": "",
+"files": [],
+"tracks": [],
+"isText": false,
+"textConfig": {},
+"apiConfig": {},
+"genome": "hg38"
+},
+{
+"name": "RepeatMasker",
+"type": "repeatmasker",
+"label": "RepeatMasker",
+"options": {
+"label": "RepeatMasker"
+},
+"url": "https://vizhub.wustl.edu/public/hg38/rmsk16.bb",
+"metadata": {
+"Track type": "repeatmasker"
+},
+"isSelected": false,
+"fileObj": "",
+"files": [],
+"tracks": [],
+"isText": false,
+"textConfig": {},
+"apiConfig": {}
+},
+{
+"name": "Ruler",
+"type": "ruler",
+"label": "Ruler",
+"options": {
+"label": "Ruler"
+},
+"url": "",
+"metadata": {
+"Track type": "ruler"
+},
+"isSelected": false,
+"fileObj": "",
+"files": [],
+"tracks": [],
+"isText": false,
+"textConfig": {},
+"apiConfig": {}
+},
+{
+"name": "shRNA knockdown followed by RNA-seq on MATR3-human in HepG2",
+"type": "bigwig",
+"label": "shRNA knockdown followed by RNA-seq on MATR3-human in HepG2",
+"options": {
+"color": "#28719b",
+"height": 20,
+"label": "shRNA knockdown followed by RNA-seq on MATR3-human in HepG2"
+},
+"url": "https://epgg-test.wustl.edu/d/hg19/encodeprj-hg19/ENCFF002YQO.bigWig",
+"metadata": {
+"Sample": [
+"Adult Cells/Tissues",
+"Liver",
+"HepG2"
+],
+"Assay": [
+"Expression",
+"RNA-Seq"
+],
+"Institution": [
+"ENCODE"
+],
+"Track type": "bigwig"
+},
+"isSelected": false,
+"fileObj": "",
+"files": [],
+"tracks": [],
+"isText": false,
+"textConfig": {},
+"apiConfig": {},
+"datahub": "ENCODE signal of unique reads"
+},
+{
+"name": "RNA-seq of hair follicle dermal papilla cell",
+"type": "bigwig",
+"label": "RNA-seq of hair follicle dermal papilla cell",
+"options": {
+"color": "#28719b",
+"height": 20,
+"label": "RNA-seq of hair follicle dermal papilla cell"
+},
+"url": "https://epgg-test.wustl.edu/d/hg19/encodeprj-hg19/ENCFF003RYB.bigWig",
+"metadata": {
+"Sample": [
+"Adult Cells/Tissues",
+"Stromal-Connective",
+"HFDPC"
+],
+"Assay": [
+"Expression",
+"RNA-Seq"
+],
+"Institution": [
+"ENCODE"
+],
+"Track type": "bigwig"
+},
+"isSelected": false,
+"fileObj": "",
+"files": [],
+"tracks": [],
+"isText": false,
+"textConfig": {},
+"apiConfig": {},
+"datahub": "ENCODE signal of unique reads"
+},
+{
+"name": "IMR-90 in situ Hi-C",
+"type": "hic",
+"label": "IMR-90 in situ Hi-C",
+"options": {
+"label": "IMR-90 in situ Hi-C",
+"displayMode": "arc",
+"height": 150
+},
+"url": "https://www.encodeproject.org/files/ENCFF121YPY/@@download/ENCFF121YPY.hic",
+"metadata": {
+"Sample": [
+"immortalized cell line",
+"IMR-90"
+],
+"Assay": [
+"in situ Hi-C",
+"Enzyme: MboI"
+],
+"Lab": "Erez Lieberman Aiden, BCM",
+"Track type": "hic"
+},
+"isSelected": false,
+"fileObj": "",
+"files": [],
+"tracks": [],
+"datahub": "4DN HiC datasets"
+},
+{
+"name": "IMR-90 H3K4me3-human",
+"type": "bigwig",
+"label": "IMR-90 H3K4me3-human",
+"options": {
+"label": "IMR-90 H3K4me3-human",
+"aggregateMethod": "MEAN",
+"displayMode": "auto",
+"height": 100
+},
+"url": "https://vizhub.wustl.edu/public/tmp/TW551_20-5-bonemarrow_MRE.CpG.bigWig",
+"metadata": {
+"Sample": [
+"cell line",
+"IMR-90"
+],
+"Type": "signal p-value",
+"Project": "Roadmap",
+"Assay": [
+"ChIP-seq",
+"H3K4me3-human"
+],
+"Lab": "ENCODE Processing Pipeline",
+"Track type": "bigwig"
+},
+"isSelected": false,
+"fileObj": "",
+"files": [],
+"tracks": [],
+"datahub": "Custom hub"
+}
+]
