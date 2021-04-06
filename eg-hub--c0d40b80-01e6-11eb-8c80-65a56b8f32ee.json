@@ -116,10 +116,10 @@
       "displayMode": "arc",
       "height": 150
     },
-    "url": "https://data.4dnucleome.org/files-processed/4DNFIH7TH4MF/@@download/4DNFIH7TH4MF.hic",
+    "url": "https://encode-public.s3.amazonaws.com/2018/06/04/4fb56a90-5e4d-47c0-a664-00f4a7464d44/ENCFF366ERB.hic",
     "metadata": {
       "Sample": ["immortalized cell line", "IMR-90"],
-      "Assay": ["in situ Hi-C", "Enzyme: MboI"],
+      "Assay": ["in situ Hi-C", "dilution HindIII IMR90 experiment"],
       "Lab": "Erez Lieberman Aiden, BCM",
       "Track type": "hic"
     },
@@ -127,7 +127,7 @@
     "fileObj": "",
     "files": [],
     "tracks": [],
-    "datahub": "4DN HiC datasets"
+    "datahub": "ENCODE HiC datasets"
   },
   {
     "name": "IMR-90 H3K4me3-human",
@@ -161,11 +161,11 @@
     "options": {
       "label": "K562 (Tier 2) 2-stage Repli-seq"
     },
-    "url": "https://data.4dnucleome.org/files-processed/4DNFI5TMO13R/@@download/4DNFI5TMO13R.bw",
+    "url": "https://encode-public.s3.amazonaws.com/2020/11/19/0755ae80-6a47-44ea-b3d4-9dd93efbd0a1/ENCFF817FLJ.bigWig",
     "metadata": {
-      "Sample": ["immortalized cell line", "K562 (Tier 2)"],
-      "Assay": ["2-stage Repli-seq", "Fraction: late fraction of 2 fractions"],
-      "Lab": "David Gilbert, FSU",
+      "Sample": ["cell line", "IMR-90"],
+      "Assay": ["ChIP-seq (Histone ChIP-seq)"],
+      "Lab": "Bing Ren, UCSD",
       "Track type": "bigwig"
     },
     "isSelected": false,
@@ -175,6 +175,6 @@
     "isText": false,
     "textConfig": {},
     "apiConfig": {},
-    "datahub": "4DN HiC datasets"
+    "datahub": "ENCODE Bigwig datasets"
   }
 ]
