@@ -19,6 +19,6 @@
   "homepage": "https://github.com/debugpoint136/chromosome-3d#readme",
   "dependencies": {
     "axios": "^0.19.0",
-    "d3": "^5.9.7"
+    "d3": "^7.6.1"
   }
 }
